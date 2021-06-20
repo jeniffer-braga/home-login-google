@@ -1,0 +1,34 @@
+#main {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    height: 500px;
+    width: 448px;
+    border-radius: 8px; 
+    border: 1px solid #DADCE0
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infos > select {
+    border: none;
+}
+
+.infos > ul {
+    list-style: none;
+    display: flex;
+}
+
+.infos > ul li {
+    padding: 6px 16px; 
+}
+
+
