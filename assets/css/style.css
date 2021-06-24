@@ -98,6 +98,8 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #757575;
+    margin: 10px 0 0 0;
 }
 
 .infos > select {
@@ -111,6 +113,7 @@ button:hover {
 
 .infos > ul li {
     padding: 6px 16px; 
+    font-weight: 500;
 }
 
 .infos select, li {
