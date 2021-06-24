@@ -1,7 +1,11 @@
 {
   "name": "home-login-google",
   "version": "1.0.0",
-  "description": "jnjoj",
+  "description": "Layout da tela de login do Google",
+  "keywords": [
+    "html",
+    "css"
+  ],
   "main": "index.js",
   "dependencies": {
     "http-server": "^0.12.3"
@@ -14,10 +18,13 @@
     "type": "git",
     "url": "git+https://github.com/jeniffer-braga/home-login-google.git"
   },
-  "author": "",
+  "author": "Jeniffer Braga",
+  "email": "jeniffercunhabraga@gmail.com",
+  "url": "https://jeniffer-braga.github.io",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeniffer-braga/home-login-google/issues"
+    "url": "https://github.com/jeniffer-braga/home-login-google/issues",
+    "email": "jeniffercunhabraga@gmail.com"
   },
-  "homepage": "https://github.com/jeniffer-braga/home-login-google#readme"
+  "homepage": "https://jeniffer-braga.github.io/home-login-google/"
 }
