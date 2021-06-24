@@ -7,9 +7,91 @@
 
 .form {
     height: 500px;
-    width: 448px;
+    width: 448px;       
+    padding: 48px 40px 36px;
     border-radius: 8px; 
-    border: 1px solid #DADCE0
+    border: 1px solid #DADCE0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #202124;
+}
+
+.header > h1 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 16px 0 0;
+}
+
+.header > p {
+    font-size: 16px;
+    margin: 8px 0 24px 0;
+}
+
+.form > input {
+    padding: 13px 15px;
+    border: 1px solid #DADCE0;
+    border-radius: 4px;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    height: 56px;
+}
+
+.forgot-password {
+    margin: 8px 0 0 0;
+    display: block;
+}   
+
+.info {
+    font-size: 14px;
+    color: #5F6368;
+    margin: 50px 0 0 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    height: 36px;
+}
+
+#button-create-acount {
+    color: #1A73E8;
+    background-color: #FFF;
+    width: 80px;
+}
+
+#button-next {
+    color: #FFF;
+    background-color: #2074EC;
+    width: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#button-create-acount:hover {
+    color: #174EA6;
+    background-color: #F8FCFC;
+}
+
+#button-next:hover {
+    background-color: #2064CC;
+    
 }
 
 .infos {
@@ -29,6 +111,10 @@
 
 .infos > ul li {
     padding: 6px 16px; 
+}
+
+.infos select, li {
+    font-size: 12px; 
 }
 
 
