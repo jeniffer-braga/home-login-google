@@ -1,6 +1,6 @@
 # Layout da tela de login do Google 
 Este é um projeto onde eu recriei a tela de login do Google utilizando HTML e CSS.
-
+![Projeto](google-login.png)
 # Pré-requisitos 
 - Node
 - Npm
